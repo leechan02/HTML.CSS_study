@@ -1,1 +1,1 @@
-# HTML_CSS_study
+# HTML.CSS_study
