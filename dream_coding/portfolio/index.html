@@ -49,47 +49,48 @@
   <main>
     <!-- Home -->
     <section id="home">
-      <img class="home__avatar" src="images/profile.png" alt="euicle's profile">
+      <img class="home__avatar" src="images/profile.jpg" alt="euicle's profile">
       <h2 class="home__title">Hello <br>I&#39;m <strong class="home__title--strong">youtuber</strong> Euiclee</h2>
       <p class="home__description">A software engineer currently residing in Seoul, Korea</p>
       <a class="home__contact" href="#contact">Contact Me</a>
     </section>
     <!-- About -->
-    <section id="about" class="section">
+    <section id="about" class="section max-container">
       <h2 class="title">About me</h2>
       <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero minima corporis quis, obcaecati
         tenetur quos, suscipit fuga reprehenderit laboriosam illum repellat impedit quia at, molestias sequi. Cumque,
         dolore saepe!</p>
-      <ul>
-        <li>
-          <i class="fa-brands fa-html5"></i>
-          <p>Front-end</p>
+      <ul class="majors">
+        <li class="major">
+          <i class="fa-brands fa-html5 major__icon"></i>
+          <p class="major__title">Front-end</p>
           <p>HTML, CSS, Javascript, React, Web APIs</p>
         </li>
-        <li>
-          <i class="fa-solid fa-mobile"></i>
-          <p>Mobile</p>
+        <li class="major">
+          <i class="fa-solid fa-mobile major__icon"></i>
+          <p class="major__title">Mobile</p>
           <p>React Native</p>
         </li>
-        <li>
-          <i class="fa-solid fa-server"></i>
-          <p>Back-end</p>
+        <li class="major">
+          <i class="fa-solid fa-server major__icon"></i>
+          <p class="major__title">Back-end</p>
           <p>Firebase, JavaScript</p>
         </li>
       </ul>
-      <ul>
-        <li><img src="images/jobs/google.png" alt="google logo">
+      <ul class="jobs">
+        <li class="job">
+          <img src="images/jobs/google.png" alt="google logo">
           <div>
-            <p>Google as Senior Software Engineer</p>
-            <p>2019 Oct - Until now</p>
+            <p class="job__name">Google as Senior Software Engineer</p>
+            <p class="job__period">2019 Oct - Until now</p>
           </div>
         </li>
-        <li>
+        <li class="job">
           <img src="images/jobs/samsung.png" alt="samsung logo">
-          <dir>
-            <p>Samsung as Software Engineer</p>
-            <p>2014 Sept - 2019 Oct</p>
-          </dir>
+          <div>
+            <p class="job__name">Samsung as Software Engineer</p>
+            <p class="job__period">2014 Sept - 2019 Oct</p>
+          </div>
         </li>
       </ul>
     </section>
