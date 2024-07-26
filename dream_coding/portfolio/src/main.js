@@ -26,3 +26,15 @@ document.addEventListener('scroll', () => {
     arrowUp.style.opacity = 0;
   }
 })
+
+// navbar menu
+const navbarMenu = document.querySelector('.header__menu');
+const navbarToggle = document.querySelector('.header__toggle');
+navbarToggle.addEventListener('click', () => {
+  navbarMenu.classList.toggle('open');
+})
+
+// navbar menu close
+navbarMenu.addEventListener('click', () => {
+  navbarMenu.classList.remove('open');
+})
